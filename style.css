@@ -102,16 +102,19 @@ a:hover span {
     text-align: center;
     height: 170px;
     vertical-align: middle;
-    padding-left: 50px;
-    padding-right: 50px;
 }
 .finisher h1{
     color: rgb(255, 254, 239);
+    background-color: black;
     padding-top: 30px;
     font-size: 50px;
 }
 .finisher p{
     color: white;
+    background-color: black;
     padding-top: 30px;
     font-size: 25px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 20px;
 }
