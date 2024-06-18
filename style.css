@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    text-decoration: none;
+}
+body{
+    font-family: "Just Another Hand";
+    font-style: cursive;
+    text-decoration: none;
+    background-color: rgb(255, 254, 239);
+    padding-top: 120px;
+}
+.sitename{
+        font-family: "Just Another Hand";
+        font-style: normal;
+        font-size: 35px;
+        color: rgb(255, 22, 68);
+        display: flex;
+        align-items: center;
+        margin-top: 10px;
+        margin-left: 40px;
+}
+li{
+    color: rgb(255, 22, 68);
+    text-decoration: none;
+    display: inline;
+    margin: 30px;
+}
+nav{
+    background-color: rgba(241, 214, 166, 0.295);
+    backdrop-filter: blur(20px);
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+}
+ul{
+    vertical-align: middle;
+}
+.navlinks {
+    display: flex;
+    align-items: center;
+    margin-right: 30px;
+    font-size: 23px;
+}
+a{
+    color: gray;
+    text-decoration: none;
+}
+.description{
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.description h1{
+    color: rgb(255, 22, 68);
+    font-size: 50px;
+}
+.description p{
+    font-size: 25px;
+    color: gray;
+    padding-top: 20px;
+}
+.images{
+    text-align: center;
+}
+.photoscontainer{
+    margin-left: 50px;
+    margin-right: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+img{
+    width: 300px;
+    height:400px;
+}
+.photoscontainer div{
+    width: 300px;
+    margin: 3px;
+    margin-bottom: 70px;
+    align-items: center;
+}
+.photoname{
+    color: gray;
+    font-size: 40px;
+    text-align: center;
+    margin-top: 15px;
+}
+.photoname:hover{
+    background-image: linear-gradient(to right, #feda75, #fa7e1e, #d62976, #962fbf, #4f5bd5, #4f5bd5); background-clip: text; -webkit-background-clip: text; color: transparent;
+}
+a:hover span {
+    line-height: 1.5; /* Adjust this value as needed */
+}
+.finisher{
+    background-color: rgb(18, 11, 0);
+    text-align: center;
+    height: 170px;
+    vertical-align: middle;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.finisher h1{
+    color: rgb(255, 254, 239);
+    padding-top: 30px;
+    font-size: 50px;
+}
+.finisher p{
+    color: white;
+    padding-top: 30px;
+    font-size: 25px;
+}
