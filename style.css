@@ -2,22 +2,24 @@
     margin: 0;
     text-decoration: none;
 }
+/* * :hover {
+    border: 1px solid red !important;
+} */
 body{
     font-family: "Just Another Hand";
     font-style: cursive;
     text-decoration: none;
-    background-color: rgb(244, 243, 215);
-    padding-top: 120px;
+    background-color: rgb(0, 0, 0);
+    padding-top: 83px;
 }
 .sitename{
         font-family: "Just Another Hand";
         font-style: normal;
         font-size: 35px;
-        color: rgb(255, 22, 68);
+        color: rgb(255, 255, 255);
         display: flex;
         align-items: center;
         margin-top: 10px;
-        margin-left: 40px;
 }
 li{
     color: rgb(255, 22, 68);
@@ -26,38 +28,68 @@ li{
     margin: 30px;
 }
 nav{
-    background-color: rgba(255, 255, 255, 0.603);
+    background-color: rgba(0, 0, 0, 0.603);
     backdrop-filter: blur(20px);
     -webkit-backdrop-filter: blur(20px);
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     padding: 10px;
     position: fixed;
     width: 100%;
     top: 0;
 }
-ul{
-    vertical-align: middle;
+.landing{
+    background-image: url('landing.jpg');
+    height: 100vh;
+    background-size: cover; /* Cover ensures the div is completely covered by the image */
+    background-position: center; /* Centers the background image */
+    background-repeat: no-repeat; /* Prevents the image from repeating */    
 }
-.navlinks {
-    display: flex;
-    align-items: center;
-    margin-right: 30px;
-    font-size: 23px;
+.landname{
+    color: white;
+    text-align: left;
+    width: auto;
+    
+    display: inline-block;
 }
-a{
-    color: gray;
+.landname h1{
+    font-size: 150px;
+    color: white;
+    
+}
+.landname h3{
+    font-size: 50px;
+    color: white;
+    display: inline;
+}
+.landlink{
+    display: inline;
+    padding-left: 300px;
     text-decoration: none;
+    bottom: 8%;
+}
+.landlink a{
+    color: white;
+    font-size: 20px;
+}
+.landlink a:hover{
+    text-decoration: underline;
+}
+.landingwrapper{
+    display: flex;
+    padding-left: 20%;
+    padding-top: 17%;
+    align-items: center;
 }
 .description{
     text-align: center;
-    margin-top: 50px;
-    margin-bottom: 50px;
+    margin-top: 200px;
+    margin-bottom: 200px;
     margin-left: 50px;
     margin-right: 50px;
 }
 .description h1{
-    color: rgb(255, 22, 68);
+    color: white;
     font-size: 50px;
 }
 .description p{
@@ -84,12 +116,14 @@ img{
     margin: 3px;
     margin-bottom: 70px;
     align-items: center;
+    text-align: center;
 }
 .photoname{
     color: gray;
     font-size: 40px;
     text-align: center;
     margin-top: 15px;
+    display: inline-block;
 }
 .photoname:hover{
     background-image: linear-gradient(to right, #feda75, #fa7e1e, #d62976, #962fbf, #4f5bd5, #4f5bd5); background-clip: text; -webkit-background-clip: text; color: transparent;
@@ -98,20 +132,18 @@ a:hover span {
     line-height: 1.5; /* Adjust this value as needed */
 }
 .finisher{
-    background-color: rgb(18, 11, 0);
+    background-color: rgb(24, 24, 24);
     text-align: center;
     height: 170px;
     vertical-align: middle;
 }
 .finisher h1{
     color: rgb(255, 254, 239);
-    background-color: black;
     padding-top: 30px;
     font-size: 50px;
 }
 .finisher p{
     color: white;
-    background-color: black;
     padding-top: 30px;
     font-size: 25px;
     padding-left: 50px;
