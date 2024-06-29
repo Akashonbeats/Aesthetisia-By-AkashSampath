@@ -11,22 +11,16 @@ body{
     text-decoration: none;
     background: linear-gradient(45deg, rgb(36, 3, 17), rgb(0, 0, 0));
     background-color: rgb(0, 0, 0);
-    padding-top: 82.5px;
+    padding-top: 8vh;
 }
 .sitename{
         font-family: "Just Another Hand";
         font-style: normal;
-        font-size: 35px;
+        font-size: 2.5vw;
         color: rgb(255, 255, 255);
         display: flex;
         align-items: center;
-        margin-top: 10px;
-}
-li{
-    color: rgb(255, 22, 68);
-    text-decoration: none;
-    display: inline;
-    margin: 30px;
+        margin-top: 1vh;
 }
 nav{
     background-color: rgba(0, 0, 0, 0.603);
@@ -34,8 +28,9 @@ nav{
     -webkit-backdrop-filter: blur(20px);
     display: flex;
     justify-content: center;
-    padding: 10px;
+    padding: 0.5vw;
     position: fixed;
+    height: 8vh;
     width: 100%;
     top: 0;
 }
@@ -50,72 +45,73 @@ nav{
     color: white;
     text-align: left;
     width: auto;
-    
     display: inline-block;
 }
 .landname h1{
-    font-size: 150px;
+    font-size: 10vw;
     color: white;
     
 }
 .landname h3{
-    font-size: 50px;
+    font-size: 5vw;
     color: white;
     display: inline;
 }
+.landingwrapper{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 50vw;
+    padding-left: 20vw;
+    padding-top: 30vh;
+    align-items: center;
+}
 .landlink{
     display: inline;
-    padding-left: 300px;
     text-decoration: none;
     bottom: 8%;
 }
 .landlink a{
     color: white;
-    font-size: 20px;
+    font-size: 2vw;
 }
 .landlink a:hover{
     text-decoration: underline;
 }
-.landingwrapper{
-    display: flex;
-    padding-left: 20%;
-    padding-top: 17%;
-    align-items: center;
-}
 .description{
     text-align: center;
-    margin-top: 200px;
-    margin-bottom: 200px;
+    margin-top: 15vh;
+    margin-bottom: 15vh;
     margin-left: 50px;
     margin-right: 50px;
 }
 .description h1{
-    color: white;
-    font-size: 50px;
+    color: rgb(252, 255, 239);
+    font-size: 4vw;
 }
 .description p{
-    font-size: 25px;
-    color: gray;
+    font-size: 1.7vw;
+    color: rgb(255, 211, 243);
     padding-top: 20px;
+    line-height: 1.5;
 }
 .images{
     text-align: center;
 }
 .photoscontainer{
-    margin-left: 50px;
-    margin-right: 50px;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
 }
 img{
-    width: 300px;
-    height:400px;
+    width: 20vw;
+    height: 50vh;
+    border-radius: 0.7vw;
 }
 .photoscontainer div{
-    width: 300px;
+    width: 20vw;
     margin: 3px;
-    margin-bottom: 70px;
+    margin-bottom: 8vh;
     align-items: center;
     text-align: center;
 }
@@ -123,31 +119,28 @@ img{
     color: gray;
     font-size: 40px;
     text-align: center;
-    margin-top: 15px;
+    margin-top: 1.5vw;
     display: inline-block;
 }
 .photoname:hover{
     background-image: linear-gradient(to right, #feda75, #fa7e1e, #d62976, #962fbf, #4f5bd5, #4f5bd5); background-clip: text; -webkit-background-clip: text; color: transparent;
 }
-a:hover span {
-    line-height: 1.5; /* Adjust this value as needed */
-}
 footer{
     background-color: rgb(24, 24, 24);
     text-align: center;
-    height: 170px;
+    height: 20vh;
     vertical-align: middle;
 }
 footer h1{
     color: rgb(255, 254, 239);
-    padding-top: 30px;
-    font-size: 50px;
+    padding-top: 4vh;
+    font-size: 3vw;
 }
 footer p{
     color: white;
-    padding-top: 30px;
-    font-size: 25px;
-    padding-left: 50px;
-    padding-right: 50px;
-    padding-bottom: 20px;
+    padding-top: 4vh;
+    font-size: 3vh;
+    padding-left: 5vw;
+    padding-right: 5vw;
+    padding-bottom: 2vh;
 }
