@@ -9,8 +9,9 @@ body{
     font-family: "Just Another Hand";
     font-style: cursive;
     text-decoration: none;
+    background: linear-gradient(45deg, rgb(36, 3, 17), rgb(0, 0, 0));
     background-color: rgb(0, 0, 0);
-    padding-top: 83px;
+    padding-top: 82.5px;
 }
 .sitename{
         font-family: "Just Another Hand";
@@ -131,18 +132,18 @@ img{
 a:hover span {
     line-height: 1.5; /* Adjust this value as needed */
 }
-.finisher{
+footer{
     background-color: rgb(24, 24, 24);
     text-align: center;
     height: 170px;
     vertical-align: middle;
 }
-.finisher h1{
+footer h1{
     color: rgb(255, 254, 239);
     padding-top: 30px;
     font-size: 50px;
 }
-.finisher p{
+footer p{
     color: white;
     padding-top: 30px;
     font-size: 25px;
