@@ -117,10 +117,12 @@ img{
 }
 .photoname{
     color: gray;
-    font-size: 40px;
+    font-size: 3vw;
+    padding-bottom: 0.3vw;
     text-align: center;
     margin-top: 1.5vw;
     display: inline-block;
+    line-height: 1.5;
 }
 .photoname:hover{
     background-image: linear-gradient(to right, #feda75, #fa7e1e, #d62976, #962fbf, #4f5bd5, #4f5bd5); background-clip: text; -webkit-background-clip: text; color: transparent;
