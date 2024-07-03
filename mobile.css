@@ -2,7 +2,7 @@ body{
     padding-top: 4vh;
 }
 nav{
-    height: 4vh;
+    height: 5vh;
 }
 .sitename{
     margin-top: 0;
@@ -13,8 +13,7 @@ nav{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 50vh;
-    margin: 5vw;
+    height: 100vh;
 }
 .landingwrapper{
     display: flex;
@@ -38,10 +37,15 @@ nav{
 .landname h3{
     display: inline;
     align-items: center;
+    font-size: 5vw;
 }
 .landlink{
-    padding-top: 5vh;
+    padding-top: 25vh;
     display: block;
+    font-size: 3vw;
+}
+.landlink a{
+    font-size: 6.5vw;
 }
 .description{
     text-align: center;
