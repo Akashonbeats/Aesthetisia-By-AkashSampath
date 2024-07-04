@@ -118,6 +118,7 @@ img{
     width: 300px;
     height: 400px;
     border-radius: 0.7vw;
+    box-shadow: 5px 5px 80px 2px rgb(0, 0, 0);
 }
 .photoscontainer div{
     width: 300px;
