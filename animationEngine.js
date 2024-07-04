@@ -1,4 +1,5 @@
-document.addEventListener("DOMContentLoaded", () => {
+window.onload = function() {
+    // Initialize Intersection Observer inside this function
     const observer = new IntersectionObserver((entries) => {
         entries.forEach(entry => {
             if (entry.isIntersecting) {
@@ -16,4 +17,4 @@ document.addEventListener("DOMContentLoaded", () => {
         el.classList.add('hidden'); // Initially hide elements
         observer.observe(el);
     });
-});
+};
