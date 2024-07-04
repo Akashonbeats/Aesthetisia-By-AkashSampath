@@ -2,11 +2,11 @@ body{
     padding-top: 4vh;
 }
 nav{
-    height: 5vh;
+    height: 7vh;
 }
 .sitename{
-    margin-top: 0;
-    font-size: 4vw;
+    margin-top: 1vh;
+    font-size: 5vw;
 }
 .landing{
     display: flex;
@@ -14,6 +14,17 @@ nav{
     justify-content: center;
     align-items: center;
     height: 100vh;
+    position: relative; /* Ensure this is set */
+    overflow: hidden; /* Prevents the pseudo-element from extending outside */
+}
+.landing::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 20%; /* Adjust the height to control the fade effect area */
+    background: linear-gradient(transparent, black);
 }
 .landingwrapper{
     display: flex;
@@ -54,6 +65,13 @@ nav{
     margin-left: 40px;
     margin-right: 40px;
 }
+.description h1{
+    font-size: 8vw;
+    line-height: 5vh;
+}
+.description p{
+    font-size: 6vw;
+}
 .photoscontainer{
     display: flex;
     flex-direction: column;
@@ -69,14 +87,15 @@ img{
     height: 400px;
 }
 .photoname{
-    font-size: 5vw;
+    font-size: 8vw;
 }
 footer{
     height: 20vh;
 }
 footer h1{
-    font-size: 7vw;
+    font-size: 8vw;
 }
 footer p{
-    font-size: 1.5vh;
+    font-size: 2vh;
+    padding-top: 2vh;
 }
