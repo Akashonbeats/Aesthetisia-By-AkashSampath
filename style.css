@@ -2,6 +2,10 @@
     margin: 0;
     text-decoration: none;
 }
+    @font-face {
+        font-family: 'Just Another Hand';
+        src: url('JustAnotherHand-Regular.ttf') format('truetype');
+    }
 /* * :hover {
     border: 1px solid red !important;
 } */
@@ -32,7 +36,7 @@ nav{
     color: rgb(255, 255, 255);
     display: flex;
     align-items: center;
-    margin-top: 1vh;
+    margin-top: 1.5vh;
 }
 .landing{
     background-image: url('landing.jpg');
