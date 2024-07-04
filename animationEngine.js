@@ -1,5 +1,8 @@
 window.onload = function() {
-    // Initialize Intersection Observer inside this function
+    // Show the body once everything is loaded
+    document.body.style.display = 'block';
+
+    // Initialize Intersection Observer
     const observer = new IntersectionObserver((entries) => {
         entries.forEach(entry => {
             if (entry.isIntersecting) {
