@@ -1,11 +1,54 @@
+html{
+    scroll-behavior: smooth;
+}
 *{
     margin: 0;
     text-decoration: none;
 }
-    @font-face {
-        font-family: 'Just Another Hand';
-        src: url('JustAnotherHand-Regular.ttf') format('truetype');
+@font-face { /* Importing the font */
+    font-family: 'Just Another Hand';
+    src: url('JustAnotherHand-Regular.ttf') format('truetype');
+}
+@keyframes slideInUp {
+    0% {
+        opacity: 0;
+        transform: translateY(-30px);
     }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+@keyframes slideInLeft {
+    0% {
+        opacity: 0;
+        transform: translateX(-30px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+    
+}
+.hidden {
+    visibility: hidden;
+    opacity: 0;
+}
+.animate {
+    visibility: visible;
+    opacity: 1;
+    animation-name: slideInUp; /* Example animation */
+    animation-duration: 4s;
+    animation-fill-mode: forwards; /* Keeps the element in the final state of the animation */
+}
 /* * :hover {
     border: 1px solid red !important;
 } */
@@ -46,6 +89,8 @@ nav{
     background-repeat: no-repeat; /* Prevents the image from repeating */
     position: relative; /* Ensure this is set - For black fade */
     overflow: hidden; /* Prevents the pseudo-element from extending outside - For black fade*/
+    animation-name: fadeIn;
+    animation-duration: 2s;
 }
 .landing::after {
     content: "";
@@ -61,11 +106,12 @@ nav{
     text-align: left;
     width: auto;
     display: inline-block;
+    animation-name: fadeIn;
+    animation-duration: 4s;
 }
 .landname h1{
     font-size: 10vw;
     color: white;
-    
 }
 .landname h3{
     font-size: 3vw;
@@ -85,6 +131,8 @@ nav{
     display: inline;
     text-decoration: none;
     bottom: 8%;
+    animation-name: slideInLeft;
+    animation-duration: 3s;
 }
 .landlink a{
     color: white;
@@ -130,9 +178,10 @@ img{
     margin-bottom: 8vh;
     align-items: center;
     text-align: center;
+
 }
 .photoname{
-    color: gray;
+    color: rgb(255, 211, 243);
     font-size: 3vw;
     padding-bottom: 0.3vw;
     text-align: center;
