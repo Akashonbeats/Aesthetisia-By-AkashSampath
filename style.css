@@ -209,6 +209,8 @@ img{
     line-height: 50px;
     text-align: center;
     margin-bottom: 10vh;
+    margin-left: 50px;
+    margin-right: 50px;
 }
 .music p::before {
     content: "Aesthetisia ";
@@ -243,7 +245,7 @@ img{
 }
 .Spotify iframe{
     width: 50vw;
-    height: 60vh;
+    height: 54vh;
 }
 .AppleMusic{
     width: 100%;
@@ -258,7 +260,7 @@ img{
 }
 .AppleMusic iframe{
     width: 50vw;
-    height: 60vh;
+    height: 54vh;
 }
 footer{
     background-color: rgb(24, 24, 24);
