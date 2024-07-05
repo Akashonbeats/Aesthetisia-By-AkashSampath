@@ -126,7 +126,7 @@ nav{
     justify-content: space-between;
     width: 50vw;
     padding-left: 20vw;
-    padding-top: 29vh;
+    padding-top: 34vh;
     align-items: center;
 }
 .landlink{
@@ -171,13 +171,13 @@ nav{
     margin-right: 1vw;
 }
 img{
-    width: 15vw;
+    width: 20vw;
     height: auto; /* This maintains the aspect ratio of the images when the browser window is shrunk horizontally */
     border-radius: 0.7vw;
     box-shadow: 5px 5px 80px 2px rgb(0, 0, 0);
 }
 .photoscontainer div{
-    width: 20vw;
+    width: 21vw;
     margin: 3px;
     margin-bottom: 8vh;
     margin-left: 2vw;
