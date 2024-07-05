@@ -245,7 +245,7 @@ img{
 }
 .Spotify iframe{
     width: 50vw;
-    height: 54vh;
+    height: 450px;
 }
 .AppleMusic{
     width: 100%;
@@ -260,7 +260,7 @@ img{
 }
 .AppleMusic iframe{
     width: 50vw;
-    height: 54vh;
+    height: 450px;
 }
 footer{
     background-color: rgb(24, 24, 24);
