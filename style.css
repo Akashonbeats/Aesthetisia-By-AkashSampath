@@ -55,7 +55,7 @@ html{
 body{
     font-family: "Just Another Hand";
     text-decoration: none;
-    background: linear-gradient(360deg, rgb(36, 3, 17), rgb(0, 0, 0));
+    background: linear-gradient(360deg, rgba(36, 3, 17) 30%, rgb(0, 0, 0) 70%);
     background-color: rgb(0, 0, 0); /* adding a black color although the gradient is used just to make the browser's default background to black which make it don't bleed white when scrolled beyond the limit */
     padding-top: 8vh;
     display: none; /* This hides the entire website until the page is loaded */
@@ -68,7 +68,7 @@ nav{
     justify-content: center;
     padding: 0.5vw;
     position: fixed;
-    height: 8vh;
+    height: 6vh;
     width: 100%;
     top: 0;
     z-index: 1000; /* Ensure the nav is on top of everything - 3D Lift*/
@@ -76,11 +76,12 @@ nav{
 .sitename{
     font-family: "Just Another Hand";
     font-style: normal;
-    font-size: 2.5vw;
+    font-size: 2vw;
     color: rgb(255, 255, 255);
     display: flex;
     align-items: center;
     margin-top: 1.5vh;
+    transform: translateY(-3px);
 }
 .landing{
     background-image: url('landing.jpg');
@@ -125,7 +126,7 @@ nav{
     justify-content: space-between;
     width: 50vw;
     padding-left: 20vw;
-    padding-top: 35vh;
+    padding-top: 29vh;
     align-items: center;
 }
 .landlink{
@@ -165,7 +166,9 @@ nav{
 .photoscontainer{
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: space-between;
+    margin-left: 1vw;
+    margin-right: 1vw;
 }
 img{
     width: 300px;
@@ -177,9 +180,11 @@ img{
     width: 300px;
     margin: 3px;
     margin-bottom: 8vh;
+    margin-left: 1vw;
+    margin-right: 1vw;
     align-items: center;
     text-align: center;
-
+    flex-basis: 22%; /* Adjust the width of the divs */
 }
 .photoname{
     color: rgb(255, 211, 243);
@@ -187,7 +192,7 @@ img{
     padding-bottom: 0.3vw;
     text-align: center;
     margin-top: 1.5vw;
-    display: inline-block;
+    display: block;
     line-height: 1.5;
 }
 .photoname:hover{
@@ -196,7 +201,6 @@ img{
 footer{
     background-color: rgb(24, 24, 24);
     text-align: center;
-    height: 20vh;
     vertical-align: middle;
 }
 footer h1{
@@ -210,5 +214,5 @@ footer p{
     font-size: 3vh;
     padding-left: 5vw;
     padding-right: 5vw;
-    padding-bottom: 2vh;
+    padding-bottom: 4vh;
 }
