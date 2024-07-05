@@ -166,25 +166,25 @@ nav{
 .photoscontainer{
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: space-around;
     margin-left: 1vw;
     margin-right: 1vw;
 }
 img{
-    width: 300px;
-    height: 400px;
+    width: 15vw;
+    height: auto; /* This maintains the aspect ratio of the images when the browser window is shrunk horizontally */
     border-radius: 0.7vw;
     box-shadow: 5px 5px 80px 2px rgb(0, 0, 0);
 }
 .photoscontainer div{
-    width: 300px;
+    width: 20vw;
     margin: 3px;
     margin-bottom: 8vh;
-    margin-left: 1vw;
-    margin-right: 1vw;
+    margin-left: 2vw;
+    margin-right: 2vw;
     align-items: center;
     text-align: center;
-    flex-basis: 22%; /* Adjust the width of the divs */
+    flex-basis: 20%; /* Adjust the width of the divs */
 }
 .photoname{
     color: rgb(255, 211, 243);
