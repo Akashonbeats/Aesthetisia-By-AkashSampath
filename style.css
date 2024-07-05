@@ -55,7 +55,7 @@ html{
 body{
     font-family: "Just Another Hand";
     text-decoration: none;
-    background: linear-gradient(360deg, rgba(36, 3, 17) 30%, rgb(0, 0, 0) 70%);
+    background: linear-gradient(360deg, rgb(32, 1, 15, 0.5) 30%, rgb(0, 0, 0) 70%);
     background-color: rgb(0, 0, 0); /* adding a black color although the gradient is used just to make the browser's default background to black which make it don't bleed white when scrolled beyond the limit */
     padding-top: 8vh;
     display: none; /* This hides the entire website until the page is loaded */
@@ -71,7 +71,7 @@ nav{
     height: 6vh;
     width: 100%;
     top: 0;
-    z-index: 1000; /* Ensure the nav is on top of everything - 3D Lift*/
+    z-index: 1000; /* Ensure the nav is on top of everything - 3 Dimensional Lift*/
 }
 .sitename{
     font-family: "Just Another Hand";
