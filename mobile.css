@@ -124,7 +124,7 @@ img{
 }
 .Spotify iframe{
     width: 90%;
-    height: 55vh;
+    height: 450px;
 }
 .AppleMusic{
     display: block;
@@ -137,7 +137,7 @@ img{
 }
 .AppleMusic iframe{
     width: 90%;
-    height: 55vh;
+    height: 450px;
 }
 footer h1{
     font-size: 8vw;
