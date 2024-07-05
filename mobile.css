@@ -85,10 +85,56 @@ img{
 .photoscontainer div{
     width: 300px;
     height: 400px;
-    margin-bottom: 150px;
+    margin-bottom: 50px;
 }
 .photoname{
     font-size: 8vw;
+}
+.music{
+    margin-bottom: 10vh;
+}
+.music p{
+    font-size: 6vw;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+.music p::before {
+    content: "Aesthetisia ";
+    display: inline; /* To ensure it's in line with the text */
+    color: rgb(252, 255, 239);
+    font-size: 10.5vw;
+    text-align: center;
+    margin-right: 1px;
+}
+.musiclinks{
+    display: block;
+}
+.Spotify{
+    display: block;
+    text-align: center;
+    margin-bottom: 10vh;
+}
+.Spotify img{
+    width: auto;
+    height: 5vh;
+    margin-bottom: 5vh;
+}
+.Spotify iframe{
+    width: 90%;
+    height: 45vh;
+}
+.AppleMusic{
+    display: block;
+    text-align: center;
+}
+.AppleMusic img{
+    width: auto;
+    height: 4vh;
+    margin-bottom: 5vh;
+}
+.AppleMusic iframe{
+    width: 90%;
+    height: 45vh;
 }
 footer h1{
     font-size: 8vw;

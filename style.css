@@ -198,6 +198,68 @@ img{
 .photoname:hover{
     background-image: linear-gradient(to right, #feda75, #fa7e1e, #d62976, #962fbf, #4f5bd5, #4f5bd5); background-clip: text; -webkit-background-clip: text; color: transparent;
 }
+.music{
+    align-items: center;
+    margin-top: 8vh;
+    margin-bottom: 15vh;
+}
+.music p{
+    color: rgb(255, 211, 243);
+    font-size: 3.5vw;
+    line-height: 50px;
+    text-align: center;
+    margin-bottom: 10vh;
+}
+.music p::before {
+    content: "Aesthetisia ";
+    display: inline-block; /* To ensure it's in line with the text */
+    color: rgb(252, 255, 239);
+    font-size: 4vw;
+    text-align: center;
+    margin-right: 10px;
+}
+.musiclinks{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 5vh;
+}
+.musiclinks img{
+    box-shadow: none;
+    filter: brightness(0) invert(1);
+}
+.Spotify{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 15vh;
+}
+.Spotify img{
+    width: auto;
+    height: 10vh;
+}
+.Spotify iframe{
+    width: 50vw;
+    height: 60vh;
+}
+.AppleMusic{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+.AppleMusic img{
+    width: auto;
+    height: 8vh;
+}
+.AppleMusic iframe{
+    width: 50vw;
+    height: 60vh;
+}
 footer{
     background-color: rgb(24, 24, 24);
     text-align: center;
